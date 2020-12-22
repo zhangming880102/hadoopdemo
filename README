@@ -1,0 +1,2 @@
+python load_data_from_hbase.py test /weibo/
+python cut.py hdfs:///weibo/test hdfs:///weibo/testout
